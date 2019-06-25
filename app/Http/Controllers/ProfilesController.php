@@ -20,12 +20,13 @@ class ProfilesController extends Controller
 
     {
 
-       $user=User::find($user);
+       $user=User::findorfail($user);
 
 
 
 
         return view('home', compact('user'));
+
     }
 
 
