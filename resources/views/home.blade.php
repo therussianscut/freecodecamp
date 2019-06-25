@@ -11,17 +11,43 @@
 
 
     <div class="col-9 pt-5">
-        <div> <h1> FreeCodeCamp</h1></div>
+        <div> <h1> {{$user->username}}</h1></div>
         <div class="d-flex">
-            <div class="pr-3"><strong> 150</strong> Posts </div>
-            <div class="pr-3"><strong> 23K</strong> Followers </div>
-            <div class="pr-3"><strong> 212</strong> Following </div>
+            <div class="pr-5"><strong> 150</strong> Posts </div>
+            <div class="pr-5"><strong> 23K</strong> Followers </div>
+            <div class="pr-5"><strong> 212</strong> Following </div>
+        </div>
+
+        <div class="pt-4 font-weight-bold" > FreeCodeCamp</div>
+        <div> We're a global community of millions of people learning to code together.
+            We're an open source, donor-supported, 501(c)(3) nonprofit.</div>
+        <div><a href="http://www.freecodecamp.org">www.freecodecamp.org</a></div>
+
+    </div>
+
+    </div>
 
 
+    <div class="row pt-4">
+
+        <div class="col-4" class="w-100">
+
+            <img src="">
 
         </div>
 
-    </div>
+        <div class="col-4">
+
+            <img src="" class="w-100">
+
+        </div>
+
+        <div class="col-4">
+
+            <img src="" class="w-100">
+
+        </div>
+
 
     </div>
 
