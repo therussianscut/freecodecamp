@@ -25,7 +25,12 @@ class ProfilesController extends Controller
 
 
 
-        return view('home', compact('user'));
+        return view('profiles.index', [
+
+
+            'user' => $user,
+
+        ]);
 
     }
 

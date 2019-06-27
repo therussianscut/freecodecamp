@@ -11,7 +11,11 @@
 
 
     <div class="col-9 pt-5">
-        <div> <h1> {{$user->username}}</h1></div>
+        <div class="d-flex justify-content-between align-items-baseline" >
+            <h1> {{$user->username}}</h1>
+        <a href="#"> Add new post</a>
+    </div>
+
         <div class="d-flex">
             <div class="pr-5"><strong> 150</strong> Posts </div>
             <div class="pr-5"><strong> 23K</strong> Followers </div>
@@ -27,23 +31,23 @@
     </div>
 
 
-    <div class="row pt-4">
+    <div class="row pt-4 align-items-baseline" >
 
         <div class="col-4" class="w-100">
 
-            <img src="">
+            <img src="/svg/freecodecamplogo.svg">
 
         </div>
 
         <div class="col-4">
 
-            <img src="" class="w-100">
+            <img src="/svg/2019-05-29 16.31.52 copy 2.jpg" class="w-100">
 
         </div>
 
         <div class="col-4">
 
-            <img src="" class="w-100">
+            <img src="/svg/2019-06-25 18.08.18.jpg" class="w-100">
 
         </div>
 
