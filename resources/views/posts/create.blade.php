@@ -4,7 +4,8 @@
 
     <div class="container">
 
-       <form action="/p" method="post" enctype="multipart/form-data">
+       <form action="/p" method="post" enctype="multipart/form-data" >
+
         @csrf
 
 
@@ -41,9 +42,9 @@
 
 
                            @error('image')
-                           <span class="invalid-feedback" role="alert">
+
                                         <strong>{{ $message }}</strong>
-                                    </span>
+
                            @enderror
 
 
